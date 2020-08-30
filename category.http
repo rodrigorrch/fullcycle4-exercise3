@@ -1,0 +1,25 @@
+POST http://localhost:3000/categories
+Content-type: application/json
+
+{
+    "name": "Cadeira",
+    "type": "Moveis"
+}
+
+###
+GET http://localhost:3000/categories
+
+###
+GET http://localhost:3000/categories/1
+
+###
+PUT http://localhost:3000/categories/4
+Content-type: application/json
+
+{
+    "name": "Cadeira - teste44444",
+    "type": "Moveis"
+}
+
+###
+DELETE http://localhost:3000/categories/1
